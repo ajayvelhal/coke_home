@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'app_bar.dart';
+
 class MyFav extends StatelessWidget{
   final String title;
 
@@ -8,7 +10,7 @@ class MyFav extends StatelessWidget{
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
-      body: Center(child: Text(title)),
+        body: new MyBar()
     );
   }
 

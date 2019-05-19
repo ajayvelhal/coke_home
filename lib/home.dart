@@ -1,6 +1,8 @@
 
 import 'package:flutter/material.dart';
 
+import 'app_bar.dart';
+
 class MyHome extends StatelessWidget{
   final String title;
 
@@ -9,7 +11,7 @@ class MyHome extends StatelessWidget{
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
-      body: Center(child: Text(title)),
+      body: new MyBar(),
     );
   }
 

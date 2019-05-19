@@ -1,7 +1,5 @@
 import 'package:coke_home/profile.dart';
 import 'package:flutter/material.dart';
-
-import 'app_bar.dart';
 import 'cart.dart';
 import 'fav.dart';
 import 'home.dart';
@@ -48,7 +46,7 @@ class NavState extends State<NavHome> with SingleTickerProviderStateMixin {
       home: Scaffold(
          body: new TabBarView(
               children: <Widget>[
-                new MyHome("Home Page"),
+                new MyHome(""),
                 new MyFav("Favourites"),
                 new MyCart("Cart"),
                 new MyProfile("Profile")
