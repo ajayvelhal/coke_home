@@ -31,7 +31,7 @@ class MyBar extends StatelessWidget {
                     new MyNot("No new Notifications");
                   })
             ],
-            floating: true,
+            floating: false,
             snap: false,
           ),
         ],

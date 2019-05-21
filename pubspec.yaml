@@ -46,6 +46,7 @@ flutter:
      - assets/Layer 148.png
      - assets/Layer 149.png
      - assets/Layer 150.png
+     - assets/music.png
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

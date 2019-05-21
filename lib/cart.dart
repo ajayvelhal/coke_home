@@ -11,7 +11,7 @@ class MyCart extends StatelessWidget{
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
-        body: new MyBar()
+        //body: new MyBar()
     );
   }
 

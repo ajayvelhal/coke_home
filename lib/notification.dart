@@ -9,7 +9,7 @@ class MyNot extends StatelessWidget{
   Widget build(BuildContext context) {
     // TODO: implement build
     return Scaffold(
-      body: Center(child: Text(title)),
+      //body: Center(child: Text(title)),
     );
   }
 
